@@ -1,0 +1,88 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+html, body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#brandLogo{
+    height:70%;
+}
+
+
+nav{
+    justify-content:space-between;
+    display:flex;
+    background-color: rgb(245, 248, 240);
+    color: rgb(0, 63, 0);
+    padding:5px;    
+    align-items: center;
+
+}
+
+nav ul{
+    display:flex;
+}
+nav li{
+    list-style: none;
+    padding-right: 20px;
+}
+nav li:hover{
+    color: #15D49A;
+    transition: .4s;
+}
+
+
+/* Main section */
+
+.main_section{
+    padding:20%;
+    text-align:center;
+}
+
+.tittleLanding{
+    color: rgb(173, 173, 173);
+    font-size:40px;
+    transition: .4s;
+
+}
+.tittleLanding:hover{
+
+    transition: .6s;
+    color: #15D49A;
+    font-size:50px;
+    cursor:alias;
+    animation: ease;
+    
+
+}
+p{
+    font-size:15px;
+}
+
+.products{
+    background-image:url("../img/curve.png");
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding:15%;
+    display:flex;
+}
+
+.product{
+    padding:10px;
+}
+
+.product .content{
+    padding: 20px;
+    background-color:white;
+}
